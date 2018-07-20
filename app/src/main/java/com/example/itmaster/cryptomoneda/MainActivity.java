@@ -19,5 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void verBitcoin(View view) {
         Intent bitcoin = new Intent(this, BitcoinActivity.class);
+        startActivity(bitcoin);
     }
 }
