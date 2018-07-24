@@ -22,7 +22,7 @@ public class BitcoinActivity extends AppCompatActivity {
        EditText pesos = findViewById(R.id.pesos);
        double valorPesos = Double.valueOf(pesos.getText().toString());
        double valorBitcoins = valorPesos/cotizacion;
-       valorBitcoins =((int) valorBitcoins*10000)/10000;
+       valorBitcoins =((int) valorBitcoins*10)/10;
        String mensaje ="Podes comprar" + valorBitcoins + "bitcoins";
 
         Toast.makeText(this, mensaje, Toast.LENGTH_LONG).show();
