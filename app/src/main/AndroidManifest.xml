@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BitcoinActivity"></activity>
+        <activity android:name=".BitcoinActivity" />
+        <activity android:name=".Ejemplo_activity"></activity>
     </application>
 
 </manifest>
