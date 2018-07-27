@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textoCripto"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:text="CRYPTOMONEDA"
@@ -24,13 +25,26 @@
         android:layout_centerVertical="true"
         android:textSize="25dp"
         />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BITCOIN2"
         android:id="@+id/boton2"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:textSize="25dp"
         />
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar Titulo"
+        android:id="@+id/cambiarTitulo"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="25dp"
+        />
+
 </RelativeLayout>
