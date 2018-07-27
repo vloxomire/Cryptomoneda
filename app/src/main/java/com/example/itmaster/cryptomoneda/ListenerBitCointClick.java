@@ -7,7 +7,7 @@ import android.widget.Toast;
 
 public class ListenerBitCointClick implements View.OnClickListener {
     private Activity context;
-
+    //en este caso va Activity porque para el toast alcanza
     public ListenerBitCointClick(MainActivity context) {
         this.context = context;
     }
