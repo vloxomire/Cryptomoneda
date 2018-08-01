@@ -15,10 +15,10 @@ public class BitcoinActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bitcoin);
        //Creo la bolsa para poder obtener los datos pasados entre activities
-
-
         Bundle b = new Bundle();
+        //guardo en la bolsa los datos pasados por el intent que disparo el activity
         b = getIntent().getExtras();
+        ///levando dato a dato, buscandolo por mismos nombre
         String dato = b.getString("TEXTOTITULO");
         String dato2 = b.getString("STRTITULO");
         String dato3 = b.getString("DATOFIJO");
